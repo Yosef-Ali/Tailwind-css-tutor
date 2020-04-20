@@ -1,1 +1,1 @@
-# Tailwind-css-tutor
+# Tailwind-css-tutor best practice
