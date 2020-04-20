@@ -36,3 +36,7 @@ module.exports = {
 ```
 
 7. run npm build
+
+### important responsive utility tags
+
+mx-auto, max-w-md, sm:max-w-xl
