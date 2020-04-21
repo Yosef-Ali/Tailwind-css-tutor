@@ -1,1 +1,27 @@
-"watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+
+{
+	"name": "Tailwindcss-tutor",
+	"version": "1.0.0",
+	"description": "1. npm init -y",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss css/tailwind.css -o public/build/tailwind.css "
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Yosef-Ali/Tailwind-css-tutor.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Yosef-Ali/Tailwind-css-tutor/issues"
+	},
+	"homepage": "https://github.com/Yosef-Ali/Tailwind-css-tutor#readme",
+	"dependencies": {
+		"autoprefixer": "^9.7.6",
+		"postcss-cli": "^7.1.0",
+		"tailwindcss": "^1.2.0"
+	}
+}
