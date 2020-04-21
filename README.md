@@ -41,6 +41,34 @@ module.exports = {
 
 mx-auto, max-w-md, sm:max-w-xl
 
+##
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamwathan/my-tailwind-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamwathan/my-tailwind-project/issues"
+  },
+  "homepage": "https://github.com/adamwathan/my-tailwind-project#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.2",
+    "tailwindcss": "^1.0.4"
+  }
+}
+
 ## extracting-reusable-components
 1. change package.json
 ```
