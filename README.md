@@ -41,7 +41,8 @@ module.exports = {
 
 mx-auto, max-w-md, sm:max-w-xl
 
-##
+## composing-utilities-with-apply
+```
 {
   "name": "my-tailwind-project",
   "version": "1.0.0",
@@ -68,7 +69,7 @@ mx-auto, max-w-md, sm:max-w-xl
     "tailwindcss": "^1.0.4"
   }
 }
-
+```
 ## extracting-reusable-components
 1. change package.json
 ```
